@@ -1,0 +1,11 @@
+PyPDF2
+datasets
+docx
+huggingface_hub
+numpy
+pandas
+sentence_transformers
+sentencepiece
+torch
+protobuf
+transformers

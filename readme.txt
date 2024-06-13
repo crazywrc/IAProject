@@ -1,0 +1,5 @@
+Primero de todo para activar los directorios tenemos que ejecutar python -m venv "Nombredelacarpeta". Asi crearemos el entorno para las carpetas y luego lo podemos activar con .\Scripts\activate
+En cada uno de los proyectos se tienen que instalar sus requeriments con: pip intall -r requirements.txt
+Es necesario instalar para poder ejecutar el programa con la GPU, esto es para una versión de cuda 12.5 tienes que mirar tu versión: pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu121
+Para usar el IATrainerModel, se tiene que ejecutar primero el prepare_data.py, segundo el data_processing.py y por ultimo el train_model.py
+Para usar el IALectorArchivos, se tiene que tener una carpeta "Trainer" dentro del proyecto y modificar la ruta folder_path por la de "Trainer" o como quieras llamarle, tiene que meter allí los archivos a leer y después ejecutar el main.py
